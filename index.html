@@ -4,9 +4,10 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BVM PWA</title>
+  <title>BVM2018</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
-
+  <link rel="stylesheet" href="css/bvmpwa.css">
+  
   <link rel="manifest" href="/manifest.json">
 
   <!-- Add to home screen for Safari on iOS -->
@@ -49,24 +50,26 @@
     </div>
   </nav>
 
-  <main class="m-3">
-    <h1>BVM2018</h1>
-    <p>Perché noi siamo fighi e ciabbiamol'app!</p>
-    <p>Bisogno di informazioni?</p>
-    Prova a consultare:
-    <ul>
-      <li><a href="partite.html">Il calendario partite</a></li>
-      <li><a href="alloggio.html">La mappa degli alloggi</a></li>
-    </ul>
+  <main>
+    <div class="container mt-3">
+      <h1>BVM2018</h1>
+      <p>Perché noi siamo fighi e ciabbiamol'app!</p>
+      <p>Bisogno di informazioni?</p>
+      Prova a consultare:
+      <ul>
+        <li><a href="partite.html">Il calendario partite</a></li>
+        <li><a href="alloggio.html">La mappa degli alloggi</a></li>
+      </ul>
+    </div>
   </main>
 
-  <script>
+  <!--script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker
                .register('./service-worker.js')
                .then(function() { console.log('Service Worker Registered'); });
   }
-  </script>
+  </script-->
 
   <!-- Bootstrap 4 JS -->
   <script src="js/jquery-3.3.1.slim.min.js"></script>

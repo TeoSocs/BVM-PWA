@@ -6,6 +6,7 @@ var filesToCache = [
   '/alloggio.html',
   '/images/icons/icon-192x192.png',
   'css/bootstrap.min.css',
+  'css/bvmpwa.css',
   'js/jquery-3.3.1.slim.min.js',
   'js/bootstrap.min.js',
 ];
