@@ -5,9 +5,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BVM PWA</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
 
-  <!-- TODO add manifest here -->
+  <link rel="manifest" href="/manifest.json">
+
+  <!-- Add to home screen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Weather PWA">
+  <link rel="apple-touch-icon" href="images/icons/icon-192x192.png">
+
+  <!-- Tile icon for windows -->
+  <meta name="msapplication-TileImage" content="images/icons/icon-192x192.png">
+  <meta name="msapplication-TileColor" content="#343a40">
   
 </head>
 <body>
@@ -39,15 +49,29 @@
     </div>
   </nav>
 
-  <main>
-
+  <main class="m-3">
+    <h1>BVM2018</h1>
+    <p>Perché noi siamo fighi e ciabbiamol'app!</p>
+    <p>Bisogno di informazioni?</p>
+    Prova a consultare:
+    <ul>
+      <li><a href="partite.html">Il calendario partite</a></li>
+      <li><a href="alloggio.html">La mappa degli alloggi</a></li>
+    </ul>
   </main>
 
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker
+               .register('./service-worker.js')
+               .then(function() { console.log('Service Worker Registered'); });
+  }
+  </script>
 
   <!-- Bootstrap 4 JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>
