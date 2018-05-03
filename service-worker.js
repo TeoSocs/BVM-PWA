@@ -1,9 +1,11 @@
-var cacheName = 'BVM-PWA-v0.0.1';
+var cacheName = 'BVM-PWA-v1';
 var filesToCache = [
   '/',
   '/index.html',
   '/partite.html',
   '/alloggio.html',
+  '/andata.html',
+  '/ritorno.html',
   '/images/icons/icon-192x192.png',
   'css/bootstrap.min.css',
   'css/bvmpwa.css',
