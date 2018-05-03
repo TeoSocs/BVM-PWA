@@ -8,10 +8,15 @@ var filesToCache = [
   '/andata.html',
   '/ritorno.html',
   '/images/icons/icon-192x192.png',
+  '/images/icons/playstore-icon.png',  
   'css/bootstrap.min.css',
+  'css/bootstrap.min.css.map',
   'css/bvmpwa.css',
   'js/jquery-3.3.1.slim.min.js',
   'js/bootstrap.min.js',
+  'js/bootstrap.min.js.map',
+  'js/popper.min.js',
+  'js/popper.min.js.map',
 ];
 
 self.addEventListener('install', function(e) {
