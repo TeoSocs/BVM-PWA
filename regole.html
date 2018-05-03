@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BVM2018</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bvmpwa.css">
+  
+  <link rel="manifest" href="/manifest.json">
+
+  <!-- Add to home screen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Weather PWA">
+  <link rel="apple-touch-icon" href="images/icons/icon-192x192.png">
+
+  <!-- Tile icon for windows -->
+  <meta name="msapplication-TileImage" content="images/icons/icon-192x192.png">
+  <meta name="msapplication-TileColor" content="#343a40">
+  
+</head>
+<body>
+
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <span class="navbar-brand mb-0 h1">BVM 2018 - Regole</span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="partite.html">Partite</a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="#">Regole</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="alloggio.html">Alloggio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="andata.html">Andata</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ritorno.html">Ritorno</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container my-3">
+      <h1>Formula di gioco</h1>
+      <p>Gli incontri della categoria 4x4 Misto si disputano nelle giornate di sabato e domenica. La formula di gioco prevede una fase di qualificazione (giornata di sabato) attraverso gironi a più squadre. Al termine della fase di qualificazione, per ogni categoria viene stilata una classifica provvisoria sulla base del quoziente punti acquisito da ciascuna squadra; a parità di quoziente punti le posizioni migliori vengono assegnate sulla base della data di iscrizione. La fase finale (giornata di domenica) si svolge sulla base della predetta classifica con incontri a eliminazione diretta sino alla finalissima.</p>
+      <p>Accedono alla fase finale le migliori 768 squadre classificate nella fase di qualificazione, suddivise in quattro differenti Tabelloni di Gara: Platinum (1°-192°); Gold (193°-384°); Silver (385°-576°); Bronze (577°-768°). Nel caso un Tabellone di Gara della fase finale dovesse presentare un numero di squadre inferiore a 32, queste ultime saranno inserite nel Tabellone che lo precede (esempio: Tabellone Bronze con 30 squadre iscritte, queste ultime saranno inserite nel Tabellone Silver). Gli incontri del sabato e della domenica si giocano in un unico set al meglio dei 21 punti con limite ai 23; gli incontri di finale (1°-2° e 3°-4° posto) si giocano in un unico set al meglio dei 21 punti con uno scarto di due punti senza limite di punteggio.</p>
+      
+      <h1>Arbitraggio e referti</h1>
+      <p>I partecipanti chiamati a dirigere gli incontri avranno l’obbligo di compilare i referti di gara che troveranno disponibili nei campi da gioco. Il punteggio finale dell’incontro dovrà risultare leggibile e dovrà essere vidimato per accettazione da entrambe le squadre avversarie.</p>
+      <p>Nella fase di qualificazione i risultati degli incontri terminati per forfait vedranno assegnati alla squadra perdente 21 punti subiti e 0 (zero) punti realizzati, tale punteggio entrerà nella determinazione del quoziente punti valido per la classifica provvisoria. Alla squadra vincente l’incontro per forfait non sarà assegnato e conteggiato punteggio alcuno.</p>
+      <p>Le squadre che non dovessero presentarsi al campo da gioco o che si presentassero incomplete o con <b>ritardi superiori ai 20 minuti</b> rispetto ai tempi indicati nei referti di gara, saranno dichiarate perdenti per forfait con il punteggio 0-21.</p>
+      <p>Per le squadre composte da uno o più atleti impegnati in differenti categorie di gioco, in deroga a quanto sopra indicato, sarà concesso un <b>ritardo massimo di 40 minuti</b> rispetto ai tempi indicati nei referti di gara, superato questo ritardo le squadre saranno invitate dal Direttore del Torneo a decidere quale incontro disputare e, quindi, quale incontro rinunciare per forfait</p>
+    </div>
+  </main>
+
+  <!--script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker
+               .register('./service-worker.js')
+               .then(function() { console.log('Service Worker Registered'); });
+  }
+  </script-->
+
+  <!-- Bootstrap 4 JS -->
+  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

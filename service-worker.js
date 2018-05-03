@@ -3,6 +3,7 @@ var filesToCache = [
   '/',
   '/index.html',
   '/partite.html',
+  '/regole',
   '/alloggio.html',
   '/andata.html',
   '/ritorno.html',
