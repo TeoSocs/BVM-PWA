@@ -1,10 +1,10 @@
-var cacheName = 'BVM-PWA-v2';
+var cacheName = 'BVM-PWA-v3';
 
 var filesToCache = [
   '/',
   '/index.html',
   '/partite.html',
-  '/regole',
+  '/regole.html',
   '/alloggio.html',
   '/andata.html',
   '/ritorno.html',
