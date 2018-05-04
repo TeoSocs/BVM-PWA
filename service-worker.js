@@ -1,7 +1,7 @@
 var cacheName = 'BVM-PWA-v4';
 
 var filesToCache = [
-  '/',
+  //'.',
   'index.html',
   'partite.html',
   'regole.html',
