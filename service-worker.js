@@ -1,15 +1,15 @@
-var cacheName = 'BVM-PWA-v3';
+var cacheName = 'BVM-PWA-v4';
 
 var filesToCache = [
   '/',
-  '/index.html',
-  '/partite.html',
-  '/regole.html',
-  '/alloggio.html',
-  '/andata.html',
-  '/ritorno.html',
-  '/images/icons/icon-192x192.png',
-  '/images/icons/playstore-icon.png',  
+  'index.html',
+  'partite.html',
+  'regole.html',
+  'alloggio.html',
+  'andata.html',
+  'ritorno.html',
+  'images/icons/icon-192x192.png',
+  'images/icons/playstore-icon.png',  
   'css/bootstrap.min.css',
   'css/bootstrap.min.css.map',
   'css/bvmpwa.css',
