@@ -10,7 +10,7 @@
       "sizes": "512x512",
       "type": "image/png"
     }],
-  "start_url": "./index.html",
+  "start_url": "https://teosocs.github.io/BVM-PWA/",
   "display": "standalone",
   "background_color": "#343a40",
   "theme_color": "#343a40"
