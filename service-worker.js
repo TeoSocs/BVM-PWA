@@ -1,4 +1,4 @@
-var cacheName = 'BVM-PWA-v6';
+var cacheName = 'BVM-PWA-v7';
 
 var filesToCache = [
   './',
