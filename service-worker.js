@@ -14,10 +14,8 @@ var filesToCache = [
   'css/bootstrap.min.css.map',
   'css/bvmpwa.css',
   'js/jquery-3.3.1.slim.min.js',
-  'js/bootstrap.min.js',
-  'js/bootstrap.min.js.map',
-  'js/popper.min.js',
-  'js/popper.min.js.map',
+  'js/bootstrap.bundle.min.js',
+  'js/bootstrap.bundle.min.js.map',
 ];
 
 self.addEventListener('install', function(e) {
